@@ -1,0 +1,36 @@
+﻿@model List<Maker>
+
+<table style="margin-top: 20px;" class="table table-condensed" id="makerTable">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Naziv</th>
+            <th>Država</th>
+            <th>Količina automobila</th>
+            <th></th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.ID</td>
+                <td>@item.Name</td>
+                <td>@item.Country?.Name</td>
+                <td>@item.Cars.Count()</td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.ID">[edit]</a>
+                </td>
+                <td>
+                    <form asp-action="Delete" asp-route-id="@item.ID" data-ajax="true" data-ajax-update="#TableViewMaker">
+                        <button type="submit" class="btn btn-sm btn-danger d-none d-md-inline-block">
+                            Delete
+                        </button>
+                    </form>
+
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

@@ -1,0 +1,9 @@
+D:\FAKS\MVC\Projekt\Muzej\Muzej.Model\bin\Debug\netcoreapp2.1\Muzej.Model.deps.json
+D:\FAKS\MVC\Projekt\Muzej\Muzej.Model\bin\Debug\netcoreapp2.1\Muzej.Model.dll
+D:\FAKS\MVC\Projekt\Muzej\Muzej.Model\bin\Debug\netcoreapp2.1\Muzej.Model.pdb
+D:\FAKS\MVC\Projekt\Muzej\Muzej.Model\obj\Debug\netcoreapp2.1\Muzej.Model.csprojAssemblyReference.cache
+D:\FAKS\MVC\Projekt\Muzej\Muzej.Model\obj\Debug\netcoreapp2.1\Muzej.Model.AssemblyInfoInputs.cache
+D:\FAKS\MVC\Projekt\Muzej\Muzej.Model\obj\Debug\netcoreapp2.1\Muzej.Model.AssemblyInfo.cs
+D:\FAKS\MVC\Projekt\Muzej\Muzej.Model\obj\Debug\netcoreapp2.1\Muzej.Model.dll
+D:\FAKS\MVC\Projekt\Muzej\Muzej.Model\obj\Debug\netcoreapp2.1\Muzej.Model.pdb
+D:\FAKS\MVC\Projekt\Muzej\Muzej.Model\obj\Debug\netcoreapp2.1\Muzej.Model.csproj.CoreCompileInputs.cache

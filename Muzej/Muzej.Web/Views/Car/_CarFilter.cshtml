@@ -1,0 +1,22 @@
+﻿@using Muzej.Web.Models
+
+@model CarFilterModel
+
+<form action="@Url.Action("IndexAjax")" method="post" class="form-inline" id="carFilter">
+    <div class="form-group">
+        <input asp-for="Maker" class="form-control" type="text" placeholder="Pretraga po proizvođaču" />
+    </div>
+    <div class="form-group">
+        <input asp-for="Name" class="form-control" type="text" placeholder="Pretraga po modelu" />
+    </div>
+    <div class="form-group">
+        <input asp-for="Color" class="form-control" type="text" placeholder="Pretraga po boji" />
+    </div>
+    <div class="form-group">
+        <input asp-for="Year" class="form-control" type="number" placeholder="Pretraga po godini"/>
+    </div>
+    <div class="form-group">
+        <input asp-for="Owner" class="form-control" type="text" placeholder="Pretraga po vlasniku" />
+    </div>
+    <button type="button" class="btn btn-default" id="confirmCar">Submit</button>
+</form>

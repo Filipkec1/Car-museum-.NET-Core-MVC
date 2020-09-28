@@ -1,0 +1,18 @@
+﻿@model Car
+
+@{
+    ViewData["Title"] = "Dodavanje novog automobila";
+}
+
+<ol class="breadcrumb">
+    <li><a asp-action="Index">Popis automobila</a></li>
+    <li class="active">Novi automobil</li>
+</ol>
+
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <partial name="_CreateOrEdit" />
+        </form>
+    </div>
+</div>

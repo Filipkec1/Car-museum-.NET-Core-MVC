@@ -1,0 +1,13 @@
+﻿@using Muzej.Web.Models
+
+@model MakerFilterModel
+
+<form action="@Url.Action("IndexAjax")" method="post" class="form-inline" id="makerFilter">
+    <div class="form-group">
+        <input asp-for="Name" class="form-control" type="text" placeholder="Pretraga po imenu" />
+    </div>
+    <div class="form-group">
+        <input asp-for="Country" class="form-control" type="text" placeholder="Pretraga po državi" />
+    </div>
+    <button type="button" class="btn btn-default" id="confirmMaker">Submit</button>
+</form>

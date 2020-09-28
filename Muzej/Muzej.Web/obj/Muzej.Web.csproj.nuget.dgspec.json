@@ -1,0 +1,221 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\FAKS\\MVC\\Projekt\\Car-museum-.NET-Core-MVC\\Muzej\\Muzej.Web\\Muzej.Web.csproj": {}
+  },
+  "projects": {
+    "D:\\FAKS\\MVC\\Projekt\\Car-museum-.NET-Core-MVC\\Muzej\\Muzej.DAL\\Muzej.DAL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\FAKS\\MVC\\Projekt\\Car-museum-.NET-Core-MVC\\Muzej\\Muzej.DAL\\Muzej.DAL.csproj",
+        "projectName": "Muzej.DAL",
+        "projectPath": "D:\\FAKS\\MVC\\Projekt\\Car-museum-.NET-Core-MVC\\Muzej\\Muzej.DAL\\Muzej.DAL.csproj",
+        "packagesPath": "C:\\Users\\Filip-Red\\.nuget\\packages\\",
+        "outputPath": "D:\\FAKS\\MVC\\Projekt\\Car-museum-.NET-Core-MVC\\Muzej\\Muzej.DAL\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Filip-Red\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {
+              "D:\\FAKS\\MVC\\Projekt\\Car-museum-.NET-Core-MVC\\Muzej\\Muzej.Model\\Muzej.Model.csproj": {
+                "projectPath": "D:\\FAKS\\MVC\\Projekt\\Car-museum-.NET-Core-MVC\\Muzej\\Muzej.Model\\Muzej.Model.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[2.1.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[2.1.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.1, )"
+            },
+            "Microsoft.Extensions.Identity.Stores": {
+              "target": "Package",
+              "version": "[2.1.1, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\FAKS\\MVC\\Projekt\\Car-museum-.NET-Core-MVC\\Muzej\\Muzej.Model\\Muzej.Model.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\FAKS\\MVC\\Projekt\\Car-museum-.NET-Core-MVC\\Muzej\\Muzej.Model\\Muzej.Model.csproj",
+        "projectName": "Muzej.Model",
+        "projectPath": "D:\\FAKS\\MVC\\Projekt\\Car-museum-.NET-Core-MVC\\Muzej\\Muzej.Model\\Muzej.Model.csproj",
+        "packagesPath": "C:\\Users\\Filip-Red\\.nuget\\packages\\",
+        "outputPath": "D:\\FAKS\\MVC\\Projekt\\Car-museum-.NET-Core-MVC\\Muzej\\Muzej.Model\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Filip-Red\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Microsoft.Extensions.Identity.Stores": {
+              "target": "Package",
+              "version": "[2.1.1, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\FAKS\\MVC\\Projekt\\Car-museum-.NET-Core-MVC\\Muzej\\Muzej.Web\\Muzej.Web.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\FAKS\\MVC\\Projekt\\Car-museum-.NET-Core-MVC\\Muzej\\Muzej.Web\\Muzej.Web.csproj",
+        "projectName": "Muzej.Web",
+        "projectPath": "D:\\FAKS\\MVC\\Projekt\\Car-museum-.NET-Core-MVC\\Muzej\\Muzej.Web\\Muzej.Web.csproj",
+        "packagesPath": "C:\\Users\\Filip-Red\\.nuget\\packages\\",
+        "outputPath": "D:\\FAKS\\MVC\\Projekt\\Car-museum-.NET-Core-MVC\\Muzej\\Muzej.Web\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Filip-Red\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {
+              "D:\\FAKS\\MVC\\Projekt\\Car-museum-.NET-Core-MVC\\Muzej\\Muzej.DAL\\Muzej.DAL.csproj": {
+                "projectPath": "D:\\FAKS\\MVC\\Projekt\\Car-museum-.NET-Core-MVC\\Muzej\\Muzej.DAL\\Muzej.DAL.csproj"
+              },
+              "D:\\FAKS\\MVC\\Projekt\\Car-museum-.NET-Core-MVC\\Muzej\\Muzej.Model\\Muzej.Model.csproj": {
+                "projectPath": "D:\\FAKS\\MVC\\Projekt\\Car-museum-.NET-Core-MVC\\Muzej\\Muzej.Model\\Muzej.Model.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Microsoft.AspNetCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.1, )",
+              "autoReferenced": true
+            },
+            "Microsoft.AspNetCore.Razor.Design": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.2, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[2.1.10, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,55 @@
+﻿@model List<Maker>
+
+@{
+    ViewData["Title"] = "Index Maker";
+}
+
+<div style="margin-top: 20px;">
+    <partial name="_MakerFilter" model="new MakerFilterModel()" />
+</div>
+
+<div class="row">
+    <div class="col-md-12">
+        <a asp-action="Create" class="btn btn-success pull-right">Dodaj novog proizvođača</a>
+    </div>
+</div>
+
+<div id="TableViewMaker">
+
+</div>
+
+@section Scripts{
+    <script>
+        $(document).ready(function () {
+            $("#makerTable").replaceWith(
+
+                $.ajax({
+                url: "@Url.Action("IndexAjax")",
+                method: "POST",
+                success: function (html) {
+                    $("#TableViewMaker").html(html);
+                }
+            }));
+        });
+
+    </script>
+
+
+    <script>
+        $(document).ready(function () {
+
+            $("#confirmMaker").click(function () {
+                $("#makerTable").replaceWith(
+
+                    $.ajax({
+                    url: "@Url.Action("IndexAjax")",
+                    method: "POST",
+                    data: $("#makerFilter").serializeArray(),
+                    success: function (html) {
+                        $("#TableViewMaker").html(html);
+                    }
+                }));
+            })
+        });
+    </script>
+}

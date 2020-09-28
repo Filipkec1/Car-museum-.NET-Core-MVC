@@ -1,0 +1,31 @@
+﻿@model List<Car>
+
+<table style="margin-top: 20px;" class="table table-condensed" id="carTable">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Proizvođač</th>
+            <th>Model</th>
+            <th>Boja</th>
+            <th>Godina</th>
+            <th>Vlasnik</th>
+            <th> </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.ID</td>
+                <td>@item.Maker.Name</td>
+                <td>@item.ModelName</td>
+                <td>@item.Color</td>
+                <td>@item.ManufactureDate.Year.ToString()</td>
+                <td>@item.Owner?.FullName</td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.ID">[edit]</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

@@ -1,0 +1,16 @@
+﻿@model Maker
+
+<div class="form-group">
+    <label class="control-label">Naziv proizvođača</label>
+    <input asp-for="Name" class="form-control" />
+    <span asp-validation-for="Name" class="text-danger"></span>
+</div>
+<div class="form-group">
+    <label class="control-label">Država</label>
+    <select asp-for="CountryID" asp-items="ViewBag.PossibleCountries" class="form-control"></select>
+    <span asp-validation-for="CountryID" class="text-danger"></span>
+</div>
+
+<div class="form-group">
+    <input type="submit" value="Spremi" class="btn btn-default" />
+</div>

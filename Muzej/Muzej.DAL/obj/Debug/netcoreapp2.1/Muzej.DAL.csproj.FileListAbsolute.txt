@@ -1,0 +1,15 @@
+D:\FAKS\MVC\Projekt\Muzej\Muzej.DAL\bin\Debug\netcoreapp2.1\Muzej.DAL.deps.json
+D:\FAKS\MVC\Projekt\Muzej\Muzej.DAL\bin\Debug\netcoreapp2.1\Muzej.DAL.dll
+D:\FAKS\MVC\Projekt\Muzej\Muzej.DAL\bin\Debug\netcoreapp2.1\Muzej.Model.dll
+D:\FAKS\MVC\Projekt\Muzej\Muzej.DAL\bin\Debug\netcoreapp2.1\Muzej.Model.pdb
+D:\FAKS\MVC\Projekt\Muzej\Muzej.DAL\obj\Debug\netcoreapp2.1\Muzej.DAL.csprojAssemblyReference.cache
+D:\FAKS\MVC\Projekt\Muzej\Muzej.DAL\obj\Debug\netcoreapp2.1\Muzej.DAL.AssemblyInfoInputs.cache
+D:\FAKS\MVC\Projekt\Muzej\Muzej.DAL\obj\Debug\netcoreapp2.1\Muzej.DAL.AssemblyInfo.cs
+D:\FAKS\MVC\Projekt\Muzej\Muzej.DAL\obj\Debug\netcoreapp2.1\Muzej.DAL.csproj.CopyComplete
+D:\FAKS\MVC\Projekt\Muzej\Muzej.DAL\bin\Debug\netcoreapp2.1\Muzej.DAL.runtimeconfig.json
+D:\FAKS\MVC\Projekt\Muzej\Muzej.DAL\bin\Debug\netcoreapp2.1\Muzej.DAL.runtimeconfig.dev.json
+D:\FAKS\MVC\Projekt\Muzej\Muzej.DAL\bin\Debug\netcoreapp2.1\Muzej.DAL.pdb
+D:\FAKS\MVC\Projekt\Muzej\Muzej.DAL\obj\Debug\netcoreapp2.1\Muzej.DAL.dll
+D:\FAKS\MVC\Projekt\Muzej\Muzej.DAL\obj\Debug\netcoreapp2.1\Muzej.DAL.pdb
+D:\FAKS\MVC\Projekt\Muzej\Muzej.DAL\obj\Debug\netcoreapp2.1\Muzej.DAL.genruntimeconfig.cache
+D:\FAKS\MVC\Projekt\Muzej\Muzej.DAL\obj\Debug\netcoreapp2.1\Muzej.DAL.csproj.CoreCompileInputs.cache
